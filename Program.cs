@@ -90,7 +90,7 @@ namespace Iqi
         {
             foreach (var role in (Recieved.Message.Author as SocketGuildUser).Roles)
                 if ((role.Permissions.Administrator && !isOwner) ||
-                    BaseConfig.GetConfig().OwnerID == role.Id)
+                    BaseConfig.GetConfig().OwnerID == Recieved.Message.Author.Id)
                     return true;
             return false;
         }
