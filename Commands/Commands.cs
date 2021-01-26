@@ -39,7 +39,6 @@ namespace Iqi.Commands
         public static string Description = "Shows the list of commands or information about the one asked.";
         public static string[] Usages = { ".commands [command]" };
         public static string Permission = "Anyone can use it.";
-        public static string Trello = "https://trello.com/c/VUQlIot5/27-commands";
 
         public static async void DoCommand()
         {

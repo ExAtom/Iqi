@@ -13,7 +13,6 @@ namespace Iqi.Commands
         public static string Description = "Calculates the bot's ping.";
         public static string[] Usages = { ".ping" };
         public static string Permission = "Anyone can use it.";
-        public static string Trello = "https://trello.com/c/2wXQDMBX/31-ping";
 
         public static async void DoCommand(bool isResponse)
         {

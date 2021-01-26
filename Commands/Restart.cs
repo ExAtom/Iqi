@@ -9,7 +9,6 @@ namespace Iqi.Commands
         public static string Description = "Restart or shutdown the bot. Updates from the Github repository.";
         public static string[] Usages = { ".restart [option]" };
         public static string Permission = "Only the owner can use it.";
-        public static string Trello = "https://trello.com/c/2t1CC8e0/6-restart";
 
         public async static void DoCommand()
         {
